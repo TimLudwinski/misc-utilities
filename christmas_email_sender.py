@@ -4,7 +4,7 @@ import random
 import argparse
 
 # Added to .gitignore to avoid putting this on the internet
-with open("secure_santa_settings.json") as f:
+with open("secure-santa-settings.json") as f:
     settingsD = json.load(f)
     person_to_emailD = settingsD["personToEmail"]
     login_username = sender_email = settingsD["senderEmail"]
@@ -38,6 +38,8 @@ The christmas spreadsheat is available through the following link:
 Please fill out your address and the presents you want and once you buy a gift for someone add an entry in the tab with the recipient's name on it to let people know that you've bought that gift.  
 
 Merry Christmas!!
+
+P.S. We're hoping to do a virtual secret santa gift opening sometime in December (it can even be Christmas day if you all want that).  Please let us know if this works for you and what days work.  
 """
 
 def connect_to_email_server():

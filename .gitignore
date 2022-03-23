@@ -31,4 +31,5 @@
 *.out
 *.app
 
-secure_santa_settings.json
+secure-santa-settings.json
+boggle-dice.json
