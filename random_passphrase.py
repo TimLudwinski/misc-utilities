@@ -1,3 +1,30 @@
+"""
+Password Complexity (comparing random letters vs random words):
+
+8 Random Lowercase Letters (26^8)
+208,827,064,576
+8 Random Letters (any case) ((26*2)^8)
+53,459,728,531,456
+Three Random Words (58000^3)
+195,112,000,000,000
+8 Random Letters (any case) and Numbers  ((26*2+10)^8)
+218,340,105,584,896
+8 Random Letters, Numbers and Symbols in the number row ((26*2+10+16)^8)
+1,370,114,370,683,136
+12 Random Lowercase Letters (26^8)
+95,428,956,661,682,176
+Four Random Words (58000^4)
+11,316,496,000,000,000,000
+12 Random Letters, Numbers and Symbols in the number row ((26*2+10+16)^8)
+50,714,860,157,241,037,295,616
+Five Random Words (58000^5)
+656,356,768,000,000,000,000,000
+16 Random Letters, Numbers and Symbols in the number row ((26*2+10+16)^8)
+1,877,213,388,752,445,800,995,314,794,496
+Seven Random Words (58000^5)
+656,356,768,000,000,000,000,000
+2.207984167552e+33
+"""
 import random
 import argparse
 
